@@ -124,9 +124,9 @@ return {
                 maxPreload = 100,
                 checkThirdParty = false,
                 exclude = {
-                  "**/node_modules",
-                  "**/vendor",
-                  "**/build",
+                  "*/node_modules",
+                  "*/vendor",
+                  "*/build",
                 },
               },
               telemetry = {
